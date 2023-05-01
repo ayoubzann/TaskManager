@@ -30,7 +30,7 @@ function TaskCard({ task, onDelete }) {
     if (checked === true) {
         return (<div className='border font-mono rounded-full p-4 text-center m-4'>
             <p className='text-xl'> 
-                Done 😍
+                Done 🪱
                 <br /> <br />
                 <button onClick={() => setChecked(false)}
                 className="border p-3 rounded-full font-bold hover:bg-yellow-300"
